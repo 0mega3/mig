@@ -1,0 +1,56 @@
+<!--
+Copyright (c) 2025 Denis Khorkin
+
+Licensed under the BSD 3-Clause "New" or "Revised" License;
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     https://opensource.org/license/bsd-3-clause
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ -->
+<!DOCTYPE html>
+<html>  <!-- Root -->
+    <head>  <!-- Metadata -->
+        <title>MIG</title>
+        <link rel="icon" href="static/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="static/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="static/style.css">
+        <script src="static/jquery-3.7.1.min.js"></script>
+        <script src="static/chat.js"></script>
+    </head>
+    <body>  <!-- Body (content) -->
+        <!-- Sidebar layout -->
+        <div id="sidebar">
+            <div id="sidebar-header">
+                <span>-=^=- MIG</span>
+                <button id="sidebar-toggle">≡</button>
+            </div>
+            <div class="sidebar-section-header">[Rooms]</div>
+            <div id="rooms-list">
+                <ul id="rooms"></ul>
+            </div>
+            <div class="sidebar-section-header">[Users]</div>
+            <div id="users-list">
+                <ul id="users"></ul>
+            </div>
+        </div>
+        <!-- Main layout -->
+        <div id="main">
+            <div id="message-area"></div>
+            <div id="status-line">Status: Disconnected</div>
+            <input type="text" id="command-line"
+                               placeholder="Enter a command...">
+        </div>
+    </body>
+</html>

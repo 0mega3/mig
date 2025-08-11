@@ -1,0 +1,13 @@
+apps_dirs:
+  - "apps/*"
+deps_dirs:
+  - "_build/default/lib/*"
+    # These paths are prepended to all other paths
+    # given by  an -include or -include_lib directive.
+include_dirs:
+  - "_build/default/lib/"
+  - "_build/default/lib/*/include"
+  - "include"
+  - "apps"
+  - "apps/*"
+  - "apps/*/src"

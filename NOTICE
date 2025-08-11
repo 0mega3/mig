@@ -1,0 +1,5 @@
+This project contains code derived from:
+- erlang-review (Apache 2.0): https://github.com/WWWcool/erlang-review
+  - File: review.erl
+  - File: apps/mig/src/mig_sup.erl
+  - File: apps/mig/src/web_handler.erl
