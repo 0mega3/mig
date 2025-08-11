@@ -4,7 +4,7 @@
 #
 # copyright 2025 by Denis Khorkin
 # license   BSD-3-Clause
-# author    Denis Khorkin <dkh01101111@gmail.com>
+# author    Denis Khorkin <denkhorkin@gmail.com>
 #############################################################################
 
 REPO_CVR = https://github.com/0mega3/mig/raw/main/doc/src/assets/cover.png

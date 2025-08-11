@@ -1,5 +1,5 @@
 {application, mig,
- [{description, "An OTP application"},
+ [{description, "The MIG chat"},
   {vsn, "0.1.0"},
   {registered, []},
   {mod, { mig_app, []}},
@@ -11,8 +11,7 @@
    ]},
   {env,[]},
   {modules, [mig_app, mig_sup, web_handler, mig]},
-  {maintainers, []},
-  {licenses, ["Apache 2.0",
-              "BSD-3-Clause"]},
-  {links, []}
+  {maintainers, ["denkhorkin@gmail.com"]},
+  {licenses, ["Apache 2.0", "BSD-3-Clause"]},
+  {links, [{"GitHub", "https://github.com/0mega3/mig"}]}
  ]}.
