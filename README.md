@@ -67,7 +67,7 @@ rebar3 release
 ./_build/default/rel/mig/bin/mig foreground
 ```
 
-For more info, see [API documentation](apps/mig/doc/index.html).
+For more info, see [API documentation](https://hexdocs.pm/mig/readme.html).
 
 ## Testing
 
